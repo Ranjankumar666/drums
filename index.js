@@ -61,7 +61,7 @@ function makeSound(key){
 				break;
 
 			default:
-				alert("Error");
+			
 			
 		}	
 }
