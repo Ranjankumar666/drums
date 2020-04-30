@@ -67,6 +67,6 @@ function makeSound(key){
 }
 
 function bottonAnimate(buttonPressed){
-	var activeKey= document.querySelector("."+buttonPressed).classList.toggle("pressed");
+	var activeKey= document.querySelector("."+buttonPressed).classList.add("pressed");
 	setTimeout(function (){var activeKey= document.querySelector("."+buttonPressed).classList.remove("pressed");}, 150);
 }
